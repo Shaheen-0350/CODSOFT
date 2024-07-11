@@ -1,0 +1,62 @@
+body {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F5652030.jpg&f=1&nofb=1&ipt=60e18b004faac0340e84059d855e6df715f418e0e70ec12b72aaf91c540eb5c8&ipo=images');
+    background-size: 100% 100%;
+    color: white;
+}
+h1 {
+    display: inline-block;
+    padding-top: 55pxpx;
+}
+
+img {
+    float: right;
+    border: solid black 3px;
+    margin-left: 25px;
+}
+
+#aboutMe {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#contactMe {
+    margin-top: 25px;
+    height: 35px;
+}
+
+a {
+    margin-left: 45%;
+    font-size: 1.5rem;
+    border: solid black;
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+#skills {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.skillList {
+    font-size: 15px;
+    display: inline;
+    border-style: dashed;
+    padding: 15px;
+    background-color: yellow;
+    margin: 5px;
+    color: black;
+}
+
+#projects {
+    margin-top: 50px;
+    border: 5px;
+    width: 50%;
+    font-size: 20px;
+}
+
+.list {
+    font-size: 18px;
+}
+
