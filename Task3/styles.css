@@ -1,32 +1,59 @@
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
-    margin: 0;
-    background-color: f0f0f0;
+    background-color: rgb(23,35,38);
 }
-
-.calculator {
-    border: 1px solid black;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #fff;
-}
-
-#display {
+#container {
     width: 100%;
-    height: 40px;
-    margin-bottom: 10px;
+    height: 95%;
+}
+#screen {
+    height: 16%;
+    border: solid 5px rgba(20, 19, 19, 0.682);
     text-align: right;
-    padding-right: 10px;
-    font-size: 18px;
+    word-wrap: break-word;
+    background-color: #a7af7e;
+    font-size: 5.5vh;
+}
+#mainControls {
+    height: 14%;
+    display: flex;
+    flex-direction: row;
+    border: solid white 2px;
+}
+.mainControlItems {
+    flex: 1;
 }
 
-.buttons button {
-    width: 22%;
-    height: 40px;
-    margin: 1%;
-    font-size: 18px;
+#numpadAndOperators {
+    height: 69.7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0;
+    row-gap: 0;
+    border: solid white 3px;
+}
+
+#numpadAndOperators button{
+    width: 100%;
+    height: 98%;
+    background-color: black;
+    color: white;
+}
+
+.mainControlItems {
+    background-color: rgb(26, 122, 142);
+    color: white;
+}
+
+#plus, #minus, #multiply, #divide, #equals {
+    background-color: orange !important;
+}
+
+button {
+    font-size: 5vh;
+}
+
+button:active, #plus:active, #minus:active, #multiply:active, #divide:active, #equals:active {
+    background-color: white !important;
+    color: black !important;
 }
